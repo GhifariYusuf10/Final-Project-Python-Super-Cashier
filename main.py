@@ -101,22 +101,39 @@ class Transaction :
         total_price = 0
         for item in self.list_items:
             total_price += self.list_items[item][2]
-        print(total_price)
+        
+        if total_price > 500_000 :
+            discount_price = 10/100 * total_price
+            total_price = total_price - discount_price
+            print(f"You get 10% discount, total price are : Rp. {'{:,}'.format(total_price)}")
+        
+        elif total_price > 300_000 :
+            discount_price = 8/100 * total_price
+            total_price = total_price - discount_price
+            print(f"You get 8% discount, total price are : Rp. {'{:,}'.format(total_price)}")
+
+        elif total_price > 200_000 :
+            discount_price = 5/100 * total_price
+            total_price = total_price - discount_price
+            print(f"You get 5% discount, total price are : Rp. {'{:,}'.format(total_price)}")
+        
+        else:
+            print(f"Total price are : Rp. {'{:,}'.format(total_price)}")
 
 
 trx_1234 = Transaction()
 
 trx_1234.check_order()
-trx_1234.add_item('Nasi Goreng', 2, 10_000)
-trx_1234.add_item('Mie Goreng', 3, 10_000)
+trx_1234.add_item('Keyboard', 1, 500_000)
+trx_1234.add_item('Mouse', 1, 150_000)
 
-trx_1234.update_item_name('Nasi Goreng', 'Nasi Uduk')
+trx_1234.update_item_name('Keyboard', 'Speaker')
 print(trx_1234.list_items)
 
-trx_1234.update_item_qty('Nasi Uduk', 4)
+trx_1234.update_item_qty('Speaker', 1)
 print(trx_1234.list_items)
 
-trx_1234.update_item_price('Nasi Uduk', 5000)
+trx_1234.update_item_price('Speaker', 50_000)
 print(trx_1234.list_items)
 
 #trx_1234.delete_item('Nasi Uduk')
