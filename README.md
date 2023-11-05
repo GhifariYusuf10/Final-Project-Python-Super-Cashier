@@ -257,7 +257,7 @@ Seorang pemilik supermarket besar di salah satu kota di Indonesia memiliki renca
     
 # Hasil Test Case
 
-* Test Case 1
+* **Test Case 1**
 
 User menambahkan dua item dengan menggunakan method add_item().
 
@@ -269,7 +269,7 @@ Output :
 
 ![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/82bf2ba8a175048b43cdc0a7176109ac7b0cfaeb/images/output-tc-1.jpg)
 
-* Test Case 2
+* **Test Case 2**
 
 User menghapus item dengan menggunakan method delete_item().
 
@@ -281,7 +281,7 @@ Output :
 
 ![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/82bf2ba8a175048b43cdc0a7176109ac7b0cfaeb/images/output-tc-2.jpg)
 
-* Test Case 3
+* **Test Case 3**
 
 User menghapus seluruh item dengan menggunakan method reset_transaction().
 
@@ -293,7 +293,7 @@ Output :
 
 ![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/82bf2ba8a175048b43cdc0a7176109ac7b0cfaeb/images/output-tc-3.jpg)
 
-* Test Case 4
+* **Test Case 4**
 
 User mendapatkan total harga belanja yang akan dibayarkan menggunakan method total_price().
 
