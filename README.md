@@ -53,7 +53,7 @@ Seorang pemilik supermarket besar di salah satu kota di Indonesia memiliki renca
             print("Something went wrong when adding item")
     ```
 
-    * update_item_name(item_name, new_item_name) : Merubah salah satu nama item
+    * update_item_name() : Merubah salah satu nama item
     ```python
     def update_item_name(item_name, new_item_name):
         """
@@ -136,7 +136,7 @@ Seorang pemilik supermarket besar di salah satu kota di Indonesia memiliki renca
             print("ERROR - Something went wrong when updating item price")
     ```
 
-    * delete_item(item_name) : Menghapus suatu item di dictionary
+    * delete_item() : Menghapus suatu item di dictionary
     ```python
     def delete_item(self, item_name):
         """
@@ -242,3 +242,14 @@ Seorang pemilik supermarket besar di salah satu kota di Indonesia memiliki renca
         except :
             print("ERROR - Something went wrong when counting total item price")
     ```
+    
+# Hasil test case
+
+# Conclusion / Future Work
+
+* Sudah berhasil menambahkan suatu item ke dalam dictionary, kemudian dapat melakukan update berdasarkan nama item, jumlah item, harga item. Dan juga dapat melakukan penghapusan salah satu item, dan menghapus seluruh item. Kemudian, juga telah berhasil mencetak informasi seluruh item yang ada di dictionary dalam bentuk tabel dan mencetak total harga
+
+* Apabila ingin diimprove, maka bisa menambahkan :
+    * Suatu database untuk menyimpan list pesanan
+    * Mengirimkan invoice ke alamat email pembeli
+    * Tampilan UI aplikasi
