@@ -14,23 +14,23 @@ Seorang pemilik supermarket besar di salah satu kota di Indonesia memiliki renca
 
 # Flowchart
 
-* Langkah pertama, User harus memanggil function add_item() untuk menambahkan item, jumlah item, dan harga per item yang terdapat pada skrip 'module.py'. Apabila User memanggil function lain tanpa memanggil function add_item() maka skrip tidak akan berjalan dengan benar.
+* Langkah pertama, User harus memanggil method add_item() untuk menambahkan item, jumlah item, dan harga per item yang terdapat pada skrip 'module.py'. Apabila User memanggil method lain tanpa memanggil method add_item() maka skrip tidak akan berjalan dengan benar.
 
 * Langkah kedua, setelah User menambahkan item, jumlah item, dan harga per item, maka User memiliki berbagai opsi proses bisnis yang dapat dilakukan, antara lain :
 
-    - User dapat mengubah nama item dengan memanggil function update_item_name().
-    - User dapat mengubah jumlah item dengan memanggil function update_item_qty()
-    - User dapat mengubah harga item dengan memanggil function update_item_price()
-    - User dapat menghapus satu item dengan memanggil function delete_item()  
-    - User dapat menghapus seluruh item dengan memanggil function reset_transaction()
-    - User dapat mengecek seluruh item, jumlah item dan harga item yang dipesan dengan memanggil function check_order()
-    - User mendapatkan informasi total harga item dengan memanggil function total_price()
+    - User dapat mengubah nama item dengan memanggil method update_item_name().
+    - User dapat mengubah jumlah item dengan memanggil method update_item_qty()
+    - User dapat mengubah harga item dengan memanggil method update_item_price()
+    - User dapat menghapus satu item dengan memanggil method delete_item()  
+    - User dapat menghapus seluruh item dengan memanggil method reset_transaction()
+    - User dapat mengecek seluruh item, jumlah item dan harga item yang dipesan dengan memanggil method check_order()
+    - User mendapatkan informasi total harga item dengan memanggil method total_price()
 
 # Penjelasan Code
 
 * Skrip 'main.py' berfungsi sebagai skrip test case untuk mengambil fungsi yang ada pada skrip 'module.py'
 * Skrip 'module.py' berfungsi sebagai skrip yang berisikan proses proses bisnis
-* Dalam skrip 'module.py' berisikan beberapa function yang ada di dalam class Transaction, antara lain :
+* Dalam skrip 'module.py' berisikan beberapa method yang ada di dalam class Transaction, antara lain :
 
     * add_item(self, item_name, item_qty, item_price) : Untuk menambahkan item, jumlah item, dan harga per item ke dalam dictionary
     ```python
@@ -255,7 +255,19 @@ Seorang pemilik supermarket besar di salah satu kota di Indonesia memiliki renca
             print("ERROR - Something went wrong when counting total item price")
     ```
     
-# Hasil test case
+# Hasil Test Case
+
+* Test Case 1
+
+User menambahkan dua item dengan menggunakan method add_item().
+
+Input :
+
+![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/81a1002eb2893105da659835795913b2be794dcc/images/input-tc-1.jpg)
+
+Output :
+![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/81a1002eb2893105da659835795913b2be794dcc/images/input-tc-2.jpg)
+
 
 # Conclusion / Future Work
 
