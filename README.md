@@ -24,7 +24,8 @@ Seorang pemilik supermarket besar di salah satu kota di Indonesia memiliki renca
     - User dapat menghapus satu item dengan memanggil method delete_item()  
     - User dapat menghapus seluruh item dengan memanggil method reset_transaction()
     - User dapat mengecek seluruh item, jumlah item dan harga item yang dipesan dengan memanggil method check_order()
-    - User mendapatkan informasi total harga item dengan memanggil method total_price()
+
+* Apabila User telah selesai melakukan proses bisnis dan ingin melakukan pembayaran maka User bisa mendapatkan informasi total harga item dengan memanggil method total_price()
 
 # Penjelasan Code
 
