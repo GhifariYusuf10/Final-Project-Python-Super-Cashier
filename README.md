@@ -266,8 +266,44 @@ Input :
 ![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/81a1002eb2893105da659835795913b2be794dcc/images/input-tc-1.jpg)
 
 Output :
-![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/81a1002eb2893105da659835795913b2be794dcc/images/input-tc-2.jpg)
 
+![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/82bf2ba8a175048b43cdc0a7176109ac7b0cfaeb/images/output-tc-1.jpg)
+
+* Test Case 2
+
+User menghapus item dengan menggunakan method delete_item().
+
+Input :
+
+![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/82bf2ba8a175048b43cdc0a7176109ac7b0cfaeb/images/input-tc-2.jpg)
+
+Output :
+
+![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/82bf2ba8a175048b43cdc0a7176109ac7b0cfaeb/images/output-tc-2.jpg)
+
+* Test Case 3
+
+User menghapus seluruh item dengan menggunakan method reset_transaction().
+
+Input :
+
+![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/82bf2ba8a175048b43cdc0a7176109ac7b0cfaeb/images/input-tc-3.jpg)
+
+Output :
+
+![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/82bf2ba8a175048b43cdc0a7176109ac7b0cfaeb/images/output-tc-3.jpg)
+
+* Test Case 4
+
+User mendapatkan total harga belanja yang akan dibayarkan menggunakan method total_price().
+
+Input :
+
+![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/82bf2ba8a175048b43cdc0a7176109ac7b0cfaeb/images/input-tc-4.jpg)
+
+Output :
+
+![alt text](https://github.com/GhifariYusuf10/Final-Project-Python-Super-Cashier/blob/82bf2ba8a175048b43cdc0a7176109ac7b0cfaeb/images/output-tc-4.jpg)
 
 # Conclusion / Future Work
 
