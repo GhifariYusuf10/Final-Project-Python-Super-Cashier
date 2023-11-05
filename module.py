@@ -141,6 +141,7 @@ class Transaction :
             if item_name in self.list_items:
                 del self.list_items[item_name]
                 print(f"{item_name} have been deleted")
+                print(f"List of item : {self.list_items}.")
             else :
                 print("ERROR - Item name doesn't Exist")
             
