@@ -10,13 +10,25 @@ Seorang pemilik supermarket besar di salah satu kota di Indonesia memiliki renca
 * Customer dapat menghapus satu item
 * Customer dapat menghapus seluruh item
 * Customer dapat mengecek seluruh item, jumlah item dan harga item yang dipesan
-* Customer dapat mendapat total harga item
+* Customer mendapatkan informasi total harga item
 
 # Flowchart
 
+* Langkah pertama, User harus memanggil function add_item() untuk menambahkan item, jumlah item, dan harga per item yang terdapat pada skrip 'module.py'. Apabila User memanggil function lain tanpa memanggil function add_item() maka skrip tidak akan berjalan dengan benar.
+
+* Langkah kedua, setelah User menambahkan item, jumlah item, dan harga per item, maka User memiliki berbagai opsi proses bisnis yang dapat dilakukan, antara lain :
+
+    - User dapat mengubah nama item dengan memanggil function update_item_name().
+    - User dapat mengubah jumlah item dengan memanggil function update_item_qty()
+    - User dapat mengubah harga item dengan memanggil function update_item_price()
+    - User dapat menghapus satu item dengan memanggil function delete_item()  
+    - User dapat menghapus seluruh item dengan memanggil function reset_transaction()
+    - User dapat mengecek seluruh item, jumlah item dan harga item yang dipesan dengan memanggil function check_order()
+    - User mendapatkan informasi total harga item dengan memanggil function total_price()
+
 # Penjelasan Code
 
-* Skrip 'main.py' berfungsi sebagai skrip test case untuk mengambil fungsi yang ada pada skrip module.py
+* Skrip 'main.py' berfungsi sebagai skrip test case untuk mengambil fungsi yang ada pada skrip 'module.py'
 * Skrip 'module.py' berfungsi sebagai skrip yang berisikan proses proses bisnis
 * Dalam skrip 'module.py' berisikan beberapa function yang ada di dalam class Transaction, antara lain :
 
